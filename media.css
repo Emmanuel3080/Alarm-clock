@@ -1,0 +1,9 @@
+@media(max-width:340px){
+    .time{
+        /* background-color: red; */
+    }
+    #btn1{
+        /* background-color: red; */
+        font-size: 15px;
+    }
+}

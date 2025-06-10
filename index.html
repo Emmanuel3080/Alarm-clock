@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Alarm</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./media.css">
+</head>
+<body>
+    
+
+     <div class="title">
+        <h1 id="text">A Modern Alarm</h1>
+    </div>
+    
+    <div class="clock">
+      <div class="time">
+        <h2 id="hour">00</h2>
+        <p id="dot">:</p>
+        <h2 id="min">00</h2>
+        <p id="dot">:</p>
+        <h2 id="sec">00</h2><span class="notifys"></span>
+      </div>
+      <div class="btn">
+<button onclick="startClock()" id="btn1">Start the time</button>                                    
+      </div>
+    
+    </div>
+
+    <div class="setAlarm">
+      <div class="alarmTime">
+        <input type="time" id="timeIN" placeholder="Set Time" />
+      </div>
+      <div class="alarmInput">
+        <input type="text" readonly id="alerts" />
+      </div>
+
+      <button class="snoozeBtn" >Snooze</button>
+    </div>
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
